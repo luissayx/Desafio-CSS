@@ -1,0 +1,41 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.pikachu{
+    padding: 5px;
+    border: 2px solid rgb(255, 0, 85);
+    border-radius: 6px;
+}
+.pikachu:hover{
+    background-color: rgb(252, 185, 185);
+    border: 2px dashed rgb(0, 153, 255);
+}
+
+.meowth{
+    padding: 9px;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 6px
+}
+.meowth:hover{
+    background-color: rgb(252, 185, 185);
+    border: 2px dashed rgb(6, 82, 19);
+}
+
+.psyduck{
+    padding: 5px;
+    border: 2px solid rgb(28, 160, 79);
+    border-radius: 6px
+}
+.psyduck:hover{
+    background-color: rgb(252, 185, 185);
+    border: 2px dashed rgb(255, 0, 0);
+}
+h1{
+    color: white;
+}

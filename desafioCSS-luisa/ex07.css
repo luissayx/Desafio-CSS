@@ -1,0 +1,35 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.snorlax {
+    width: 100%;
+    grid-column: span 2;
+    grid-row: 1 / 2;
+    border: 2px solid rgb(211, 2, 106);
+    border-radius: 6px;
+    background-color: rgb(190, 255, 252);
+}
+
+.zubat {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 2px solid rgb(240, 86, 163);
+    border-radius: 6px;
+    background-color: rgb(148, 157, 231);
+}
+
+
+.diglett {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 2px solid rgb(158, 200, 216);
+    border-radius: 6px;
+    background-color: rgb(243, 218, 186);
+}
+h1{
+    color: white;
+}

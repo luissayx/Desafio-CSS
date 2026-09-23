@@ -1,0 +1,45 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.sentret {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+    border: 2px solid rgb(131, 126, 100);
+    border-radius: 6px;
+    background-color: rgb(128, 104, 74);
+}
+
+.ledyba {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center;
+    border: 2px solid rgb(216, 210, 158);
+    border-radius: 6px;
+    background-color: rgb(243, 218, 186);
+}
+
+.hoothoot {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: end;
+    border: 2px solid rgb(216, 205, 158);
+    border-radius: 6px;
+    background-color: rgb(233, 243, 186);
+}
+
+.spinarak {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    justify-self: end;
+    border: 2px solid rgb(158, 216, 166);
+    border-radius: 6px;
+    background-color: rgb(186, 243, 186);
+}
+h1{
+    color: white;
+}
