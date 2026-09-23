@@ -1,0 +1,34 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.articuno {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 2px solid rgb(12, 118, 255);
+    border-radius: 6px;
+    background-color: rgb(186, 230, 243);
+}
+h1{
+    color: white;
+}
+
+.zapdos {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 2px solid rgb(113, 126, 65);
+    border-radius: 6px;
+    background-color: rgb(208, 224, 168);
+}
+
+
+.moltres {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border: 2px solid rgb(235, 186, 95);
+    border-radius: 6px;
+    background-color: rgb(243, 220, 186);
+}
